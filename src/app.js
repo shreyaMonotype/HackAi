@@ -6,7 +6,7 @@ function greet(name) {
 }
 
 // Call the greet function with a sample name
-greet("John");
+greet("Shreya");
 
 // Define an array of numbers
 const numbers = [1, 2, 3, 4, 5];
@@ -49,4 +49,4 @@ function getRandomNumber(min, max) {
 
 // Generate and log a random number
 const randomNumber = getRandomNumber(1, 100);
-console.log("Random Number: " + randomNumber);
+console.log("Random : " + randomNumber);
