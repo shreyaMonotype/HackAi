@@ -5,3 +5,4 @@ async function sum(a,b){
 }
 await sum(1,2)
 await Dummy()
+await diff()
