@@ -5,11 +5,11 @@ const pdfmake = require('pdfmake/build/pdfmake');
 const vfsFonts = require('pdfmake/build/vfs_fonts');
 const fs = require('fs');
 pdfMake.vfs = vfsFonts.pdfMake.vfs;
-const {Gittoken,apiKey} = require("constants")
+const { Gittoken, apiKey } = require('../../constant');
 
 const openai = new OpenAI({apiKey:apiKey});
 const octokit = new Octokit({
-    auth: token
+    auth: Gittoken
 });
 
 async function getFileContent(owner, repo, branch, filename) {
