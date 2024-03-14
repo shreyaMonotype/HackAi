@@ -1,2 +1,2 @@
 const apple= "not apple"
-console.log("-------")
+console.log("--test-----",apple)
