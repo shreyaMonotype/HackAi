@@ -4,3 +4,4 @@ async function sum(a,b){
     return a+b
 }
 await sum(1,2)
+await Dummy()
